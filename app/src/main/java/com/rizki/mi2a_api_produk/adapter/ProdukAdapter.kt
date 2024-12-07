@@ -49,9 +49,9 @@ class ProdukAdapter(
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ProdukViewHolder {
-      val view = LayoutInflater.from(parent.context).inflate(
-          R.layout.row_product_item,parent, false
-      )
+     val view = LayoutInflater.from(parent.context).inflate(
+         R.layout.row_product_item, parent, false
+     )
         return ProdukViewHolder(view, onClick)
     }
 
